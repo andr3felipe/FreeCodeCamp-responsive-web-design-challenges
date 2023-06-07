@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(130deg, #1b1b32, rgba(24, 33, 87, 0.877));
+    padding-bottom: 2rem;
+}
+
+
+span {
+    font-style: italic;
+    font-size: 14px;
+}
+
+#title, #description {
+    margin-top: 2rem;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+#description {
+    margin-bottom: 3rem;
+}
+
+#survey-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.5rem;
+
+    max-width: 640px;
+    width: 100%;
+
+    background-color: #1b1b32;
+    color: white;
+    font-size: 20px;
+    padding: 2rem;
+
+    border-radius: 4px;
+}
+
+.items-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+input, select {
+    width: 100%;
+    padding: 0.75rem 0.5rem;
+    border-radius: 4px;
+    border: none;
+}
+
+.radio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.radio-items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.25rem;
+}
+
+.radio-items label {
+    white-space: nowrap;
+}
+
+.favorite-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.improvement-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.improvement-container div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+.improvement-container label {
+    white-space: nowrap;
+}
+
+.improvement-container input {
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.textarea {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+
+    margin-top: 1rem;
+}
+
+textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.submit-container {
+    padding: 2rem 0;
+    width: 100%;
+}
+
+#submit {
+    width: 100%;
+    color: white;
+    background-color: #37af65;
+    padding: 0.75rem;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
